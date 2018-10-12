@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.okcomputers.higherorlowernumbergame.MainActivity">
+<TextView
+    android:id="@+id/question1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Content"
+    android:layout_margin="10dp"
+    android:textSize="16sp"
+    android:textColor="@android:color/black"
+    android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Content2"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/question1"/>
+    <EditText
+        android:id="@+id/NumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter a number"
+        android:layout_below="@id/question2"
+        />
+    <Button
+        android:id="@+id/GuessBtn"
+        android:onClick="guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/NumberEditText"
+        android:layout_margin="10dp"
+        />
+
+
+</RelativeLayout>

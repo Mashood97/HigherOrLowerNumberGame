@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HigherOrLowerNumberGame</string>
+    <string name="Content">I am guessing the number between 1 and 20</string>
+    <string name="Content2">Can you guess it?</string>
+</resources>
